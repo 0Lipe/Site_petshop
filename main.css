@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3{
+    font-family: 'Pangolin', cursive;
+}
+
+body h2{
+    font-family: 'Pangolin', cursive;
+    color: rgb(67, 139, 202);
+}
+
+.store-front {
+    width: 700px;
+    display: inline;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(67, 139, 202);
+    color: rgb(255, 255, 255);
+}
+
+header nav li {
+    display: inline;
+    margin-right: 18px;
+    padding: 0;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.store-fron{
+    margin-right: 32px;
+}
+
+#Serviços .container{
+    display: block;
+}
+
+#Serviços img {
+    width: 250px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-around;
+}
+
+form input, 
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.Agende-horario {
+    display:flex;
+    
+    align-items: normal;
+}
+
+#Contato .container{
+    display: block;
+}
+
+.Con {
+    display: inline;
+}
